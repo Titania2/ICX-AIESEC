@@ -41,32 +41,32 @@ export const About: React.FC = () => {
   const localCommittees = [
     {
       name: "AIESEC in Islamabad",
-      image: "https://images.pexels.com/photos/3225529/pexels-photo-3225529.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F9c37bfdbfb3947a89c568fd4bf772889",
       description: "Leading youth development in Pakistan's capital city"
     },
     {
       name: "AIESEC in NUST",
-      image: "https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F6db729d50fb44895b4d3948666c1efc7?format=webp",
       description: "Empowering students at National University of Sciences & Technology"
     },
     {
       name: "AIESEC in Karachi",
-      image: "https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F33858501282241e3b452b4dda35d7a55?format=webp",
       description: "Creating impact in Pakistan's largest metropolitan city"
     },
     {
       name: "AIESEC in Karachi South",
-      image: "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F51930f0ff85b4d16b5cda1370649c030",
       description: "Expanding opportunities in southern Karachi region"
     },
     {
       name: "AIESEC in IBA",
-      image: "https://images.pexels.com/photos/5212321/pexels-photo-5212321.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fb145706c23154216a0779d16d0692d37",
       description: "Developing leaders at Institute of Business Administration"
     },
     {
       name: "AIESEC in Multan",
-      image: "https://images.pexels.com/photos/3225530/pexels-photo-3225530.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F3a870f5492134fefb65861a41ffaa4dd",
       description: "Fostering growth in the city of saints"
     },
     {
@@ -171,68 +171,10 @@ export const About: React.FC = () => {
       </section>
 
       {/* Impact Stats */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
-        <div className="absolute inset-0">
-          <div 
-            className="absolute inset-0 bg-cover bg-center opacity-20"
-            style={{
-              backgroundImage: `url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1200')`
-            }}
-          ></div>
-        </div>
-        
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="mb-16"
-          >
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-white mb-6">
-              Our Impact in Numbers
-            </h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Over the years, AIESEC Pakistan has created meaningful impact across communities and lives.
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {impactStats.map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                whileHover={{ scale: 1.05 }}
-                className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 group border border-white/20"
-              >
-                <div className="text-emerald-200 mb-3 flex justify-center group-hover:scale-110 transition-transform duration-300">
-                  {stat.icon}
-                </div>
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">{stat.number}</div>
-                <div className="text-blue-100 text-sm">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Local Committees Hero */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-16"
-          >
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-white mb-6">
-              11 Cities. One Purpose.
-            </h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              Local Committees from every corner of Pakistan making global exchange happen.
-            </p>
-          </motion.div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          </div>
         </div>
       </section>
 
