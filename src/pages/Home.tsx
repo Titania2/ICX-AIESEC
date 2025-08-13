@@ -336,7 +336,7 @@ export const Home: React.FC = () => {
         {/* Background Video */}
         <video
           className="absolute inset-0 w-full h-full object-cover z-0"
-          src="https://www.w3schools.com/html/mov_bbb.mp4" // replace with your video link
+          src="https://youtu.be/ybcZQxpTrCs" // replace with your video link
           autoPlay
           loop
           muted
