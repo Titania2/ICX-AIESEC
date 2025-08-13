@@ -48,7 +48,7 @@ export const Home: React.FC = () => {
     {
       quote: "From the bustling streets of Lahore to the serene valleys of the north, Pakistan is a symphony of experiences that will stay with me forever.",
       author: "Marie Dubois",
-      country: "🇫🇷 France",
+      country: "��🇷 France",
       image: "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=300"
     }
   ];
@@ -57,31 +57,16 @@ export const Home: React.FC = () => {
     <div className="relative">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background with fallback */}
+        {/* Background Video */}
         <div className="absolute inset-0 w-full h-full">
-          {/* Fallback background image */}
-          <div
-            className="absolute inset-0 bg-cover bg-center bg-fixed"
-            style={{
-              backgroundImage: `linear-gradient(rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.4)), url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1920')`
-            }}
-          ></div>
-
-          {/* Video overlay (if it loads) */}
           <video
             className="absolute inset-0 w-full h-full object-cover"
+            src="https://archive.org/download/pakistanicxdemo/FPV%20Drone%20Flight%20through%20Beautiful%20Iceland%20Canyon%20-%20Joshua%20Turner%20%281080p%2C%20h264%29.mp4"
             autoPlay
             muted
             loop
             playsInline
-            onError={(e) => {
-              // Hide video if it fails to load
-              e.currentTarget.style.display = 'none';
-            }}
-          >
-            <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
-            {/* Fallback for unsupported video */}
-          </video>
+          />
         </div>
 
         {/* Overlay for better text readability */}
