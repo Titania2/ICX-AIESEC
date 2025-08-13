@@ -217,9 +217,15 @@ export const DiscoverPakistan: React.FC = () => {
             Discover Pakistan
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Immerse yourself in a land where ancient traditions meet modern aspirations, 
+            Immerse yourself in a land where ancient traditions meet modern aspirations,
             where every landscape tells a story, and every encounter becomes a cherished memory.
-          {/* Testimonial Videos */}
+          </p>
+        </motion.div>
+      </div>
+
+      {/* Testimonial Videos */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -231,7 +237,7 @@ export const DiscoverPakistan: React.FC = () => {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[1, 2, 3].map((index) => (
               <motion.div
                 key={index}
@@ -251,14 +257,23 @@ export const DiscoverPakistan: React.FC = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <p className="text-sm font-medium">Testimonial {index}</p>
+                    <div className="text-sm font-medium">Testimonial {index}</div>
                   </div>
                 </div>
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
 
-          </p>
+      {/* Header */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center"
+        >
         </motion.div>
       </div>
 
