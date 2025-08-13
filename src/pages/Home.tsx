@@ -67,23 +67,21 @@ export const Home: React.FC = () => {
             }}
           ></div>
 
-          {/* Video overlay (if it loads) */}
-          <video
-            className="absolute inset-0 w-full h-full object-cover"
-            autoPlay
-            muted
-            loop
-            playsInline
-            onError={(e) => {
-              // Hide video if it fails to load
-              e.currentTarget.style.display = 'none';
-            }}
-          >
-            <iframe src="https://1drv.ms/v/c/726ee95c9a22b68d/IQR8pKTq3_26T5RmLtTeLX7AAU_f7EdL6dJSiwarJoKBPV4" width="1920" height="1080" frameborder="0" scrolling="no" allowfullscreen></iframe>
-            
-            {/* Fallback for unsupported video */}
-          </video>
+          {/* Video via iframe */}
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src="https://1drv.ms/v/c/726ee95c9a22b68d/IQR8pKTq3_26T5RmLtTeLX7AAU_f7EdL6dJSiwarJoKBPV4"
+            width="1920"
+            height="1080"
+            frameBorder="0"
+            scrolling="no"
+            allowFullScreen
+          ></iframe>
         </div>
+      </section>
+    </div>
+  );
+
 
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 via-transparent to-slate-900/30"></div>
