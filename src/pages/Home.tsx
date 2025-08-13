@@ -79,7 +79,7 @@ export const Home: React.FC = () => {
               e.currentTarget.style.display = 'none';
             }}
           >
-            <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
+            <source src="https://github.com/Mujtaba0150/Video/blob/main/Joshua%20Turner%20-%20FPV%20Drone%20Flight%20through%20Beautiful%20Iceland%20Canyon.mp4" type="video/mp4" />
             {/* Fallback for unsupported video */}
           </video>
         </div>
