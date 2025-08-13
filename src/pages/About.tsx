@@ -232,7 +232,10 @@ export const About: React.FC = () => {
       </section>
 
       {/* ICX Islamabad Card */}
-      Made by ICX in Islamabad
+      <h1 className="font-serif text-4xl md:text-6xl font-bold text-white mb-6">
+        Made by ICX in Islamabad
+      </h1>
+      
       <section className="py-20 bg-gradient-to-br from-teal-50 to-blue-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Flip Card */}
