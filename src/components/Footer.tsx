@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
             >
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400/30 to-emerald-400/30 rounded-full blur-lg"></div>
-                <img src="/aiesec.png" alt="AIESEC" className="h-10 w-10 relative z-10 opacity-90" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fe9e28f29f1f040a2a08424766aea4cd7" alt="AIESEC" className="h-10 w-10 relative z-10 opacity-90" />
               </div>
               <span className="font-serif text-xl font-bold bg-gradient-to-r from-blue-300 to-emerald-300 bg-clip-text text-transparent">
                 ICX AIESEC in Pakistan
