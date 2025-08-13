@@ -53,18 +53,40 @@ export const Home: React.FC = () => {
     }
   ];
 
-  return (
-    <div className="relative">
-      {/* Hero Section */}
+  import { Builder } from '@builder.io/react';
+
+  export function HeroSection(props: { videoUrl: string }) {
+    return (
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Video */}
-        <div className="absolute inset-0 w-full h-full">
-          <div 
-            className="absolute inset-0 bg-cover bg-center bg-fixed"
-            style={{
-              backgroundImage: `linear-gradient(rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.4)), url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1920')`
-            }}
-          ></div>
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src={props.videoUrl}
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+        {/* Optional overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 to-emerald-500/40"></div>
+      </section>
+    );
+  }
+
+  // Register with Builder.io
+  Builder.registerComponent(HeroSection, {
+    name: 'Hero Section',
+    inputs: [
+      {
+        name: 'videoUrl',
+        type: 'string',
+        defaultValue:
+          'https://example.com/yourvideo.mp4',
+        friendlyName: 'Background Video URL',
+      },
+    ],
+  });
+
           
           {/* Overlay for better text readability */}
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 via-transparent to-slate-900/30"></div>
