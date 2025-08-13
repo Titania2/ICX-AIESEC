@@ -48,7 +48,7 @@ export const Home: React.FC = () => {
     {
       quote: "From the bustling streets of Lahore to the serene valleys of the north, Pakistan is a symphony of experiences that will stay with me forever.",
       author: "Marie Dubois",
-      country: "��🇷 France",
+      country: "🇫🇷 France",
       image: "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=300"
     }
   ];
@@ -65,7 +65,7 @@ export const Home: React.FC = () => {
               backgroundImage: `linear-gradient(rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.4)), url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1920')`
             }}
           ></div>
-
+        </div>
 
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 via-transparent to-slate-900/30"></div>
