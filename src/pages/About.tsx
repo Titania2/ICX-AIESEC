@@ -226,7 +226,6 @@ export const About: React.FC = () => {
                     alt={committee.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                 </div>
                 
                 <div className="p-6">
