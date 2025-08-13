@@ -57,16 +57,31 @@ export const Home: React.FC = () => {
     <div className="relative">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Video */}
+        {/* Background with fallback */}
         <div className="absolute inset-0 w-full h-full">
+          {/* Fallback background image */}
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-fixed"
+            style={{
+              backgroundImage: `linear-gradient(rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.4)), url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1920')`
+            }}
+          ></div>
+
+          {/* Video overlay (if it loads) */}
           <video
             className="absolute inset-0 w-full h-full object-cover"
-            src="https://www.w3schools.com/howto/rain.mp4"
             autoPlay
             muted
             loop
             playsInline
-          />
+            onError={(e) => {
+              // Hide video if it fails to load
+              e.currentTarget.style.display = 'none';
+            }}
+          >
+            <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
+            {/* Fallback for unsupported video */}
+          </video>
         </div>
 
         {/* Overlay for better text readability */}
@@ -335,18 +350,15 @@ export const Home: React.FC = () => {
       </section>
 
       <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
-        {/* Background Video */}
-        <video
-          className="absolute inset-0 w-full h-full object-cover z-0"
-          src="https://youtu.be/ybcZQxpTrCs" // replace with your video link
-          autoPlay
-          loop
-          muted
-          playsInline
-        ></video>
-
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 opacity-50 z-10"></div>
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1200')`
+            }}
+          ></div>
+        </div>
 
         {/* Floating Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
