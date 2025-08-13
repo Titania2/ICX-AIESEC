@@ -334,15 +334,18 @@ export const Home: React.FC = () => {
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div 
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1200')`
-            }}
-          ></div>
+        {/* Background Video */}
+        <div className="absolute inset-0 opacity-20">
+          <video
+            className="absolute inset-0 w-full h-full object-cover"
+            src="https://youtu.be/ybcZQxpTrCs" 
+            autoPlay
+            loop
+            muted
+            playsInline
+          ></video>
         </div>
+
 
         {/* Floating Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
