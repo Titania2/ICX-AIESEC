@@ -44,10 +44,10 @@ export const Navbar: React.FC = () => {
               className="relative"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-emerald-400/20 rounded-full blur-lg group-hover:blur-xl transition-all duration-300"></div>
-              <img 
-                src="/aiesec.png" 
-                alt="AIESEC" 
-                className="h-10 w-10 relative z-10 drop-shadow-sm" 
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fc24b8aae81df47f98fedc2d7226a782c"
+                alt="AIESEC"
+                className="h-10 w-10 relative z-10 drop-shadow-sm"
               />
             </motion.div>
             <div className="flex flex-col">
