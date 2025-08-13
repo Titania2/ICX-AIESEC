@@ -40,27 +40,27 @@ export const DiscoverPakistan: React.FC = () => {
 
   const foods = [
     {
-      media: "https://images.pexels.com/photos/5638732/pexels-photo-5638732.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F78d57b3cffed4aacbf9f190be75c775d?format=webp",
       type: "image"
     },
     {
-      media: "https://images.pexels.com/photos/5638733/pexels-photo-5638733.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F4f4fc3d2c6b0478ab0c73032c6e429b0",
       type: "video"
     },
     {
-      media: "https://images.pexels.com/photos/5638734/pexels-photo-5638734.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fb195976ce20e4ca892aaa99b5e6f8f9a?format=webp",
       type: "image"
     },
     {
-      media: "https://images.pexels.com/photos/5638735/pexels-photo-5638735.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F5183529c9cc649a88c558fa8faccc550?format=webp",
       type: "video"
     },
     {
-      media: "https://images.pexels.com/photos/5638736/pexels-photo-5638736.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F77960b297ec44e6cb009432114ef94e5",
       type: "image"
     },
     {
-      media: "https://images.pexels.com/photos/5638737/pexels-photo-5638737.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F2fd26a15a1344a4f9195e8225530ed46?alt=media&token=46c52360-1455-4090-ba67-348d54a9d775&apiKey=75a22e5e63fb48bebca3f469345104bb",
       type: "video"
     }
   ];
