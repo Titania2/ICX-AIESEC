@@ -108,10 +108,10 @@ export const About: React.FC = () => {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
         <div className="absolute inset-0">
-          <div 
-            className="absolute inset-0 bg-cover bg-center opacity-20"
+          <div
+            className="absolute inset-0 bg-cover bg-center opacity-20 bg-no-repeat"
             style={{
-              backgroundImage: `url('https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=1200')`
+              backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F79bcf4020b6e44dd9bf7c413c1f9e3e7')`
             }}
           ></div>
         </div>
@@ -170,21 +170,14 @@ export const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Impact Stats */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          </div>
-        </div>
-      </section>
 
       {/* Local Committees Hero */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
         <div className="absolute inset-0">
-          <div 
-            className="absolute inset-0 bg-cover bg-center opacity-20"
+          <div
+            className="absolute inset-0 bg-cover bg-center opacity-20 bg-no-repeat"
             style={{
-              backgroundImage: `url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1200')`
+              backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F7887ddc92ae94aa781da83119131c645')`
             }}
           ></div>
         </div>
