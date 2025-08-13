@@ -71,27 +71,27 @@ export const About: React.FC = () => {
     },
     {
       name: "AIESEC in Lahore",
-      image: "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fca4abdfa624740c3a2816ad067dde6e3",
       description: "Building bridges in Pakistan's cultural capital"
     },
     {
       name: "AIESEC in LUMS",
-      image: "https://images.pexels.com/photos/6129967/pexels-photo-6129967.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fdce0e98a34054d2c8bc49258ef242085?format=webp",
       description: "Inspiring excellence at Lahore University of Management Sciences"
     },
     {
       name: "AIESEC in Faisalabad",
-      image: "https://images.pexels.com/photos/9238904/pexels-photo-9238904.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fbe00a192774d413f83c6fe4f48bb296f?format=webp",
       description: "Driving change in Pakistan's industrial hub"
     },
     {
       name: "AIESEC in Hyderabad",
-      image: "https://images.pexels.com/photos/6646864/pexels-photo-6646864.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F6cd462d409d34697a59d8915ad4579ae?format=webp",
       description: "Creating opportunities in the historic city"
     },
     {
       name: "AIESEC in GIKI",
-      image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Ff0c3bd1fa9bd437686187204dec198b9?format=webp",
       description: "Innovating at Ghulam Ishaq Khan Institute"
     }
   ];
@@ -271,7 +271,7 @@ export const About: React.FC = () => {
                 {/* Back Side */}
                 <div className="absolute inset-0 w-full h-full backface-hidden rounded-2xl bg-gradient-to-br from-blue-600 to-emerald-600 flex items-center justify-center shadow-xl rotate-y-180">
                   <img
-                    src="https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F97c273a102bf479b96d1cd53d730082a"
                     alt="ICX Team Back"
                     className="w-full h-full object-cover rounded-2xl"
                   />
