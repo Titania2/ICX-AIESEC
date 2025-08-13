@@ -53,39 +53,25 @@ export const Home: React.FC = () => {
     }
   ];
 
-  import { Builder } from '@builder.io/react';
-
-  export function HeroSection(props: { videoUrl: string }) {
-    return (
+  return (
+    <div className="relative">
+      {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Video */}
-        <video
-          className="absolute inset-0 w-full h-full object-cover"
-          src={props.videoUrl}
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
-        {/* Optional overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 to-emerald-500/40"></div>
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            className="absolute inset-0 w-full h-full object-cover"
+            src="https://www.w3schools.com/howto/rain.mp4" // replace with your video
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
+        </div>
       </section>
-    );
-  }
+    </div>
+  );
 
-  // Register with Builder.io
-  Builder.registerComponent(HeroSection, {
-    name: 'Hero Section',
-    inputs: [
-      {
-        name: 'videoUrl',
-        type: 'string',
-        defaultValue:
-          'https://example.com/yourvideo.mp4',
-        friendlyName: 'Background Video URL',
-      },
-    ],
-  });
 
           
           {/* Overlay for better text readability */}
