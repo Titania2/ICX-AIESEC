@@ -57,26 +57,16 @@ export const Home: React.FC = () => {
     <div className="relative">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background with fallback */}
+        {/* Background Video */}
         <div className="absolute inset-0 w-full h-full">
-          {/* Fallback background image */}
-          <div
-            className="absolute inset-0 bg-cover bg-center bg-fixed"
-            style={{
-              backgroundImage: `linear-gradient(rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.4)), url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1920')`
-            }}
-          ></div>
-
-          {/* Video via iframe */}
-          <iframe
-            className="absolute inset-0 w-full h-full"
-            src="https://1drv.ms/v/c/726ee95c9a22b68d/IQR8pKTq3_26T5RmLtTeLX7AAU_f7EdL6dJSiwarJoKBPV4"
-            width="1920"
-            height="1080"
-            frameBorder="0"
-            scrolling="no"
-            allowFullScreen
-          ></iframe>
+          <video
+            className="absolute inset-0 w-full h-full object-cover"
+            src="https://www.w3schools.com/howto/rain.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
         </div>
 
         {/* Overlay for better text readability */}
