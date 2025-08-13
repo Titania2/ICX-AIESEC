@@ -126,7 +126,7 @@ export const About: React.FC = () => {
               AIESEC in Pakistan
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              AIESEC is the world's largest youth-run organization, enabling young people to explore and develop their leadership potential through cross-cultural experiences. In Pakistan, we've been creating transformative opportunities since 1988.
+              AIESEC is the world's largest youth-run organization, enabling young people to explore and develop their leadership potential through cross-cultural experiences. In Pakistan, we've been creating transformative opportunities since 2004.
             </p>
           </motion.div>
         </div>
