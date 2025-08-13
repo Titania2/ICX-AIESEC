@@ -59,15 +59,12 @@ export const Home: React.FC = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Video */}
         <div className="absolute inset-0 w-full h-full">
-          <video
-            className="absolute inset-0 w-full h-full object-cover"
-            src="https://www.w3scmp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-          />
-        </div>
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-fixed"
+            style={{
+              backgroundImage: linear - gradient(rgba(59, 130, 246, 0.3), rgba(16, 185, 129, 0.4)), url('https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1920')
+            }}
+          ></div>
 
 
         {/* Overlay for better text readability */}
