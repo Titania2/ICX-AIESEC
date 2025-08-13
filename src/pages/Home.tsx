@@ -332,20 +332,19 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
         {/* Background Video */}
-        <div className="absolute inset-0 opacity-20">
-          <video
-            className="absolute inset-0 w-full h-full object-cover"
-            src="https://youtu.be/ybcZQxpTrCs" 
-            autoPlay
-            loop
-            muted
-            playsInline
-          ></video>
-        </div>
+        <video
+          className="absolute inset-0 w-full h-full object-cover z-0"
+          src="https://www.w3schools.com/html/mov_bbb.mp4" // replace with your video link
+          autoPlay
+          loop
+          muted
+          playsInline
+        ></video>
 
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 opacity-50 z-10"></div>
 
         {/* Floating Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
