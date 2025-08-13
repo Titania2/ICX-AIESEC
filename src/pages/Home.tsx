@@ -79,7 +79,8 @@ export const Home: React.FC = () => {
               e.currentTarget.style.display = 'none';
             }}
           >
-            <source src="https://github.com/Mujtaba0150/Video/blob/main/Joshua%20Turner%20-%20FPV%20Drone%20Flight%20through%20Beautiful%20Iceland%20Canyon.mp4" type="video/mp4" />
+            <iframe src="https://1drv.ms/v/c/726ee95c9a22b68d/IQR8pKTq3_26T5RmLtTeLX7AAU_f7EdL6dJSiwarJoKBPV4" width="1920" height="1080" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            
             {/* Fallback for unsupported video */}
           </video>
         </div>
