@@ -83,11 +83,19 @@ export const DiscoverPakistan: React.FC = () => {
       type: "image"
     },
     {
-      media: "https://images.pexels.com/photos/6646861/pexels-photo-6646861.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fdfc1d8d9a3a946f18b0ccddf63288918",
       type: "image"
     },
     {
-      media: "https://images.pexels.com/photos/6646861/pexels-photo-6646861.jpeg?auto=compress&cs=tinysrgb&w=600",
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F414466c7a2764f4dae89d39d9fa78f1d",
+      type: "image"
+    },
+    {
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fef0d5d3b3a7a49ad82c9facd53ac2c82",
+      type: "image"
+    },
+    {
+      media: "https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2F29eb8c58338142518819c073026e5b6e",
       type: "image"
     }
   ];
@@ -256,12 +264,6 @@ export const DiscoverPakistan: React.FC = () => {
           </motion.div>
         </div>
       </section>
-
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets%2F75a22e5e63fb48bebca3f469345104bb%2Fdfc1d8d9a3a946f18b0ccddf63288918"
-        alt="Pakistani Culture 1"
-        className="block w-full h-full object-cover transition-transform duration-700 px-8 pb-8"
-      />
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
