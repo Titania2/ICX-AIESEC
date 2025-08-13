@@ -61,22 +61,16 @@ export const Home: React.FC = () => {
         <div className="absolute inset-0 w-full h-full">
           <video
             className="absolute inset-0 w-full h-full object-cover"
-            src="https://www.w3schools.com/howto/rain.mp4" // replace with your video
+            src="https://www.w3schools.com/howto/rain.mp4"
             autoPlay
             muted
             loop
             playsInline
           />
         </div>
-      </section>
-    </div>
-  );
 
-
-          
-          {/* Overlay for better text readability */}
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 via-transparent to-slate-900/30"></div>
-        </div>
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 via-transparent to-slate-900/30"></div>
 
         {/* Floating Nature Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -208,7 +202,7 @@ export const Home: React.FC = () => {
           </motion.div>
         </motion.div>
       </section>
-
+      
       {/* Why Pakistan Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
