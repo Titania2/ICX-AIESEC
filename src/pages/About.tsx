@@ -104,7 +104,7 @@ export const About: React.FC = () => {
   ];
 
   return (
-    <div className="pt-24 pb-16 bg-gradient-to-br from-blue-50 via-emerald-50 to-teal-50">
+    <div className="pt-24 pb-16 bg-gradient-to-br from-blue-50 via-emerald-50 to-teal-50 flex flex-col">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 via-emerald-600 to-teal-600 relative overflow-hidden">
         <div className="absolute inset-0">
@@ -232,11 +232,12 @@ export const About: React.FC = () => {
       </section>
 
       {/* ICX Islamabad Card */}
-      <h1 className="font-serif text-4xl md:text-6xl font-bold text-white mb-6">
+      <h1 className="font-serif text-2xl md:text-4xl font-bold mb-6 mx-auto" style={{ color: 'rgba(0, 111, 74, 1)' }}>
+        <br />
         Made by ICX in Islamabad
       </h1>
       
-      <section className="py-20 bg-gradient-to-br from-teal-50 to-blue-50">
+      <section className="pb-20 bg-gradient-to-br from-teal-50 to-blue-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Flip Card */}
           <motion.div
