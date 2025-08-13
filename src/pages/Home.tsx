@@ -61,7 +61,7 @@ export const Home: React.FC = () => {
         <div className="absolute inset-0 w-full h-full">
           <video
             className="absolute inset-0 w-full h-full object-cover"
-            src="https://www.w3schools.com/howto/rain.mp4"
+            src="https://www.w3scmp4"
             autoPlay
             muted
             loop
