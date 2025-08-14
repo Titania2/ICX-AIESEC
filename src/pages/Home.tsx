@@ -35,20 +35,20 @@ export const Home: React.FC = () => {
   const testimonials = [
     {
       quote: "The mountains of Pakistan took my breath away, but it was the warmth of the people that captured my heart forever.",
-      author: "Elena Rodriguez",
-      country: "🇪🇸 Spain",
+      author: "Hanya Ahmad",
+      country: "Marketing Intern",
       image: "https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       quote: "Every meal was an invitation to someone's home, every conversation a bridge between cultures. Pakistan changed my perspective on hospitality.",
-      author: "James Mitchell",
-      country: "🇦🇺 Australia",
+      author: "Safwan Eljadi",
+      country: "AI Intern",
       image: "https://images.pexels.com/photos/6129967/pexels-photo-6129967.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       quote: "From the bustling streets of Lahore to the serene valleys of the north, Pakistan is a symphony of experiences that will stay with me forever.",
-      author: "Marie Dubois",
-      country: "🇫🇷 France",
+      author: "Nhi Duong",
+      country: "Sales Intern",
       image: "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=300"
     }
   ];
