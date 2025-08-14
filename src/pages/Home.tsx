@@ -42,7 +42,7 @@ export const Home: React.FC = () => {
     {
       quote: "Every meal was an invitation to someone's home, every conversation a bridge between cultures. Pakistan changed my perspective on hospitality.",
       author: "Safwan Eljadi",
-      country: "AI Intern"
+      country: "AI Intern",
       image: "https://images.pexels.com/photos/6129967/pexels-photo-6129967.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
